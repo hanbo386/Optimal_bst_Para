@@ -1,0 +1,10 @@
+
+编译命令：
+串行：gcc -o opt_bst opt_bst.c
+并行：mpicc -o opt_bst_para opt_bst_para.c
+程序执行命令：
+串行：./opt_bst data
+并行：mpirun -np X opt_bst_para data 2>error.txt
+
+编译器：intel-mx2g
+数学库选择：无
